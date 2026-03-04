@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reyon Collection | Handloom Park Luxury</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --gold: #d4af37;
+            --soft-black: #0a0a0a;
+            --accent-gray: #1a1a1a;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: rgba(0,0,0,0.9);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            padding: 15px 0;
+        }
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold) !important;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        /* Header */
+        .collection-header {
+            padding: 80px 0 40px;
+            text-align: center;
+        }
+        .collection-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+        .collection-header p {
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .divider {
+            width: 50px;
+            height: 2px;
+            background-color: var(--gold);
+            margin: 20px auto;
+        }
+
+        /* Product Grid Alignment Fix */
+        .card {
+            background-color: var(--soft-black);
+            border: 1px solid var(--accent-gray);
+            border-radius: 0;
+            transition: all 0.4s ease;
+            height: 100%; /* Keeps cards same height */
+        }
+        .card:hover {
+            border-color: var(--gold);
+            transform: translateY(-8px);
+        }
+        .card-img-top {
+            border-radius: 0;
+            height: 400px; 
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 25px 15px;
+            text-align: center;
+        }
+        .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        .card-price {
+            color: var(--gold);
+            font-weight: 300;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .btn-whatsapp {
+            background-color: transparent;
+            color: var(--gold);
+            border: 1px solid var(--gold);
+            border-radius: 0;
+            padding: 10px 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
+            text-decoration: none;
+            display: block;
+        }
+        .btn-whatsapp:hover {
+            background-color: var(--gold);
+            color: #000;
+        }
+
+        footer {
+            border-top: 1px solid var(--accent-gray);
+            padding: 40px 0;
+            margin-top: 80px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">HANDLOOM PARK</a>
+        <a href="index.html" class="btn btn-sm btn-outline-light" style="font-size: 10px; border-radius: 0;">BACK TO HOME</a>
+    </div>
+</nav>
+
+<header class="collection-header">
+    <p>Silky Smooth Comfort</p>
+    <h1>Rayon Collection</h1>
+    <div class="divider"></div>
+</header>
+
+<div class="container pb-5">
+    <div class="row g-4">
+        
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/1.jpg" class="card-img-top" alt="Rayon Saree 01">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 01</h5>
+                    <p class="card-price">LKR 5,500</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/2.jpg" class="card-img-top" alt="Rayon Saree 02">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 02</h5>
+                    <p class="card-price">LKR 5,500</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/3.jpg" class="card-img-top" alt="Rayon Saree 03">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 03</h5>
+                    <p class="card-price">LKR 6,300</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/4.jpg" class="card-img-top" alt="Rayon Saree 04">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 04</h5>
+                    <p class="card-price">LKR 5,500</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/5.jpg" class="card-img-top" alt="Rayon Saree 05">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 05</h5>
+                    <p class="card-price">LKR 5,500</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/6.jpg" class="card-img-top" alt="Rayon Saree 06">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 06</h5>
+                    <p class="card-price">LKR 5,500</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/7.jpg" class="card-img-top" alt="Rayon Saree 07">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 07</h5>
+                    <p class="card-price">LKR 6300</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/8.jpg" class="card-img-top" alt="Rayon Saree 08">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 08</h5>
+                    <p class="card-price">LKR 5,900</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/9.jpg" class="card-img-top" alt="Rayon Saree 09">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 09</h5>
+                    <p class="card-price">LKR 5,500</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/10.jpg" class="card-img-top" alt="Rayon Saree 10">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 10</h5>
+                    <p class="card-price">LKR 8200</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/11.jpg" class="card-img-top" alt="Rayon Saree 11">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 11</h5>
+                    <p class="card-price">LKR 8200</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/12.jpg" class="card-img-top" alt="Rayon Saree 12">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 12</h5>
+                    <p class="card-price">LKR 6900</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div class="card">
+                <img src="images/reyon/13.jpg" class="card-img-top" alt="Rayon Saree 13">
+                <div class="card-body">
+                    <h5 class="card-title">Rayon Saree 13</h5>
+                    <p class="card-price">LKR 5,650</p>
+                    <a href="https://wa.me/message/EEMLSQC5CW5UH1" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+    </div> </div>
+
+<footer class="text-center">
+    <div class="container">
+        <p class="mb-0 small text-uppercase" style="letter-spacing: 2px;">&copy; 2026 Handloom Park | Ampara, Sri Lanka</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
